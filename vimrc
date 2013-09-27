@@ -24,8 +24,8 @@ set ignorecase
 set smartcase
 set gdefault
 set incsearch
-set showmatch
-set hlsearch
+"set showmatch
+"set hlsearch
 """ end search options
 
 """remap arow keys to devolep vim habbits
@@ -63,7 +63,7 @@ set completeopt=menu,menuone,longest
 "let g:clang_snippets_engine='clang_complete'
 let g:clang_snippets_engine='ultisnips'
 set pumheight=20
-let g:clang_library_path="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/"
+let g:clang_library_path="/usr/lib/"
 let g:SuperTabDefaultCompletionType="context"
 let g:SuperTabDefaultCompletionType='<c-x><c-u><c-p>'
 
